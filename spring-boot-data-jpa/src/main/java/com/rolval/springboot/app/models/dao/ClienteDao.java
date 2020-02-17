@@ -7,4 +7,5 @@ public interface ClienteDao {
 	
 	public List<Cliente> findAll();
 
+	
 }
