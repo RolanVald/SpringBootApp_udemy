@@ -6,6 +6,5 @@ import com.rolval.springboot.app.models.entity.*;
 public interface ClienteDao {
 	
 	public List<Cliente> findAll();
-
 	
 }
