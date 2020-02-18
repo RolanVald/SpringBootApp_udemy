@@ -8,10 +8,11 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rolval.springboot.app.models.dao.ClienteDao;
+import com.rolval.springboot.app.models.dao.IClienteDao;
 
+//@Repository("clienteDaoJPA")
 @Repository
-public class ClienteDaoImpl implements ClienteDao {
+public class ClienteDaoImpl implements IClienteDao {
 
 	@PersistenceContext 
 	private EntityManager em;
